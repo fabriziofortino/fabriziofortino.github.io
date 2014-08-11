@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-Many companies heavily rely on the functions of database that their daily business operations can not be executed if database are not available, making database management and maintenance a critical component of their business models.
+Many companies heavily rely on the functions of database that their daily business operations can not be executed if the database is not available, making database management and maintenance a critical component of their business models.
 
 <a href="http://www.orientechnologies.com/orientdb/" target="_blank">OrientDB</a> is an Open Source NOSQL database, written in Java, which nicely mixes Document and Graph features in a unique solution.
 
