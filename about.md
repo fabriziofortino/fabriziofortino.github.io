@@ -12,7 +12,7 @@ I was born and raised in Southern Italy. By nature, I am what people like to cal
 
 My life as a so-called "geek" started in 1989 with the Intel 80286 I received for Christmas. My coding adventure started at 10 with simple Basic stuff.
 
-I am now an experienced programmer and an open source enthusiast (<a href="http://osrc.dfm.io/fabriziofortino/" target="_blank">see my Open Source Report Card</a>) with a quite heterogeneous set of interests including web development, machine learning algorithms, graph databases, Big Data. I am fluent in Java, Javascript, Python and I have a good knowledge of Groovy and R. Next languages on my current to-do list are Go and Scala.
+I am now an experienced programmer and an open source enthusiast (<a href="https://www.openhub.net/accounts/fabriziofortino" target="_blank">see my FLOSS profile</a>) with a quite heterogeneous set of interests including web development, machine learning algorithms, graph databases, Big Data. I am fluent in Java, Javascript, Python, Groovy and I have a good knowledge of R. Next languages on my current to-do list are Go and Scala.
 
 I have worked in the past as Software Developer/Architect for startups, software houses, consultancy companies between Italy, California, Ireland. More details on <a href="https://www.linkedin.com/profile/view?id=4440381" target="_blank">my Linkedin Profile </a> 
 
