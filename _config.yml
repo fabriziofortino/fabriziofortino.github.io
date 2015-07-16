@@ -1,28 +1,62 @@
 title:            keep it https
 description:      A no fluff just stuff tech blog
 logo:             logo.001.jpg
-disqus_shortname: fabriziofortino
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # You don't need to specify the protocol if you want it available on http and https. Example: //localhost:4000
 url:              http://fabriziofortino.github.io
 
+# Jekyll configuration
+
+permalink: /:categories/:title/
+lsi: true
+markdown: kramdown
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+gems:
+  - jekyll-sitemap
+include: [".htaccess"]
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json", ".jekyll-assets-cache"]
+
+# Plugin: jekyll-assets
+
+assets:
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+  baseurl: http://fabriziofortino.github.io/assets/
+  debug: false
+  version: 1
+
 # Owner/author information
 owner:
   name:           Fabrizio Fortino
-  avatar:         profile.jpg
   email:          fabrizio.fortino@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        "fabriziofortino"
   facebook:
   github:         "fabriziofortino"
-  stackexchange:
+  github-repo:    https://github.com/fabriziofortino/fabriziofortino.github.io/tree/master
+  stackexchange:  http://stackoverflow.com/users/1026224/fabrizio-fortino
   linkedin:       "fabriziofortino"
   instagram:
   flickr:
   tumblr:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "https://plus.google.com/109235971620840998869"
+  google:
+    ad-client: ca-pub-5032684030004556
+    ad-slot: 2119568483
+    analytics: UA-20558822-7
+    plus: https://plus.google.com/109235971620840998869
+    verify:
+  bing:
+    verify:
+  alexa:
+    verify:
+  yandex:
+    verify:
+  avatar:         profile.jpg
+disqus_shortname: fabriziofortino
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-20558822-7
@@ -30,38 +64,18 @@ google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: About
-    url: /about/
-  - title: Articles
-    url: /articles/
-  - title: Tags
-    url: /tags/
-
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Dublin
 future:      true
-highlighter: pygments
-markdown:    kramdown
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+# Collections
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "README.md", "LICENSE", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+collections:
+  faqs:
+    output: true
+    permalink: /:collection/:path/
+    title: FAQs
+  components:
+    output: false
+  colors:
+    output: false

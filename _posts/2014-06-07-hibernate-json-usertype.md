@@ -6,12 +6,13 @@ category: articles
 tags: [java, json, orm, hibernate, jackson]
 comments: true
 share: true
+ads: true
 ---
 
 <a href="http://hibernate.org" target="_blank">Hibernate</a> provides a wide range of mappings to convert SQL data to Java objects and the other way around. In some circumstances, developers may need to define custom types to handle the mapping of a column to a specific type.
-In the last years, along with the exploding growth of JavaScript, JSON has become the most popular data­-interchange format with lots of supporting libraries that make it easy to read and write models in JSON.
-<a href="http://jackson.codehaus.org/" target="_blank">Jackson</a> is a widely used high performance Java JSON data processing library.
-Here I will show you how to create a custom Hibernate UserType that uses Jackson to map generic POJOs to a database column in a transparent fashion.
+In the last years, along with the exploding growth of JavaScript, JSON has become the most popular data­-interchange format with lots of supporting libraries that make it easy to read and write models in JSON.
+<a href="http://jackson.codehaus.org/" target="_blank">Jackson</a> is a widely used high performance Java JSON data processing library.
+Here I will show you how to create a custom Hibernate UserType that uses Jackson to map generic POJOs to a database column in a transparent fashion.
 
 ### Add Jackson as dependency to your project
 {% gist fabriziofortino/d33e6cf0e06545fcba18 pom.xml %}

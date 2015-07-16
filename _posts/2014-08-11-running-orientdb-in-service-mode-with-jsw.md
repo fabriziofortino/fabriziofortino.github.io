@@ -6,6 +6,7 @@ category: articles
 tags: [java, nosql, orientdb, jsw]
 comments: true
 share: true
+ads: true
 ---
 
 Many companies heavily rely on the functions of database that their daily business operations can not be executed if the database is not available, making database management and maintenance a critical component of their business models.
