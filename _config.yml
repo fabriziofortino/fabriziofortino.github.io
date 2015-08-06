@@ -33,7 +33,7 @@ assets:
 owner:
   name:           Fabrizio Fortino
   email:          fabrizio.fortino@gmail.com
-  disqus_shortname: fabriziofortino
+  disqus-shortname: fabriziofortino
   # Social networking links used in footer. Update and remove as you like.
   twitter:        "fabriziofortino"
   facebook:
