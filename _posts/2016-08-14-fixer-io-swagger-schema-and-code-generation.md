@@ -48,7 +48,7 @@ from the menu **Edit Codegen Options**.
 
 ### How to use the clients
 Every client implementation is language dependent though they present similarities in term of naming and structure.
-The following code snippet uses the Java Feign client to access the latest AUD exhange rate for USD.
+The following code snippet uses the Java <a href="https://github.com/OpenFeign/feign" target="_blank">Feign</a> client to access the latest AUD exhange rate for USD.
 
 {% gist fabriziofortino/5d0482c72a7b6b5bbe2c65d978f9f2f7 Rates.java %}
 
