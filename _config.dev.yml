@@ -17,6 +17,11 @@ highlighter: rouge
 gems:
   - jekyll-sitemap
   - jekyll-gist
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 include: [".htaccess"]
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json", ".jekyll-assets-cache"]
 
