@@ -53,7 +53,7 @@ owner:
   google:
     ad-client: ca-pub-5032684030004556
     ad-slot: 2119568483
-    analytics: UA-20558822-7
+    # analytics: UA-20558822-7
     plus: https://plus.google.com/109235971620840998869
     verify:
   bing:
